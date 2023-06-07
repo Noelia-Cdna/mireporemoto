@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatitos Encantadores</title>
+    <link rel="stylesheet" href="stilo.css"> <!-- Agrega el enlace a tu archivo de estilos CSS -->
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="Imagenes/logo.png" alt="Logo de Gatitos Encantadores" class="logo">
+
+        <h1>Bienvenido a Gatitos Encantadores: ¡El paraíso para los amantes de los gatitos!</h1>
+    </header>
+
+    <section id="presentation">
+        <img src="Imagenes/banner.jpg" alt="Gatitos jugando">
+        <p>Gatitos Encantadores es el lugar ideal para aquellos que adoran a los gatitos. Descubre una amplia selección
+            de imágenes, consejos, información y adorables gatitos en busca de hogar.</p>
+    </section>
+
+    <section id="gallery">
+        <img src="Imagenes/imagen1.jpg" alt="Gatito 1">
+        <img src="Imagenes/imagen2.jpg" alt="Gatito 2">
+        <img src="Imagenes/imagen3.jpg" alt="Gatito 3">
+        <!-- Agrega más imágenes de gatitos -->
+    </section>
+
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>En Gatitos Encantadores estamos comprometidos con el bienestar de los gatitos y deseamos compartir nuestro
+            amor por ellos. Nuestro objetivo es ayudar a los gatitos a encontrar hogares amorosos y proporcionar
+            información útil para cuidarlos adecuadamente.</p>
+    </section>
+
+    <section id="adopt">
+        <h2>Adopta un Gatito</h2>
+        <ul>
+            <li>
+                <img src="Imagenes/imagen4.jpg" alt="Gatito 4">
+                <h3>Shiva</h3>
+                <p>Esta adorable gatita de tres meses está buscando un hogar amoroso. Es juguetón, cariñoso y le encanta
+                    dormir sobre tu regazo.</p>
+                <a href="adopt.html">Más información</a>
+            </li>
+            <li>
+                <!-- Agrega más elementos de gatitos para adopción -->
+            </li>
+        </ul>
+    </section>
+
+    <section id="care-tips">
+        <h2>Consejos de Cuidado de Gatitos</h2>
+        <ul>
+            <li>
+                <img src="Imagenes/comida.jpg" alt="Imagen Consejo 1">
+                Consejo 1: Alimentación adecuada para gatitos
+            </li>
+            <li>
+                <img src="Imagenes/higiene.jpg" alt="Imagen Consejo 2">
+                Consejo 2: Cómo mantener la higiene del gatito
+            </li>
+            <li>
+                <img src="Imagenes/juegos.jpg" alt="Imagen Consejo 3">
+                Consejo 3: Juegos divertidos para estimular a tu gatito
+            </li>
+            <li>
+                <img src="Imagenes/arenero.jpg" alt="Imagen Consejo 4">
+                Consejo 4: Cómo entrenar a tu gatito para usar el arenero
+            </li>
+        </ul>
+    </section>
+    
+
+    <section id="testimonials">
+        <h2>Testimonios de Amantes de Gatitos</h2>
+        <div class="testimonial">
+            <img src="Imagenes/dueño.jpg" alt="Foto del dueño del gatito 1">
+            <p>"Adopté a mi gatito a través de Gatitos Encantadores y ha traído tanta alegría a mi vida. ¡Gracias por
+                esta maravillosa experiencia!"</p>
+        </div>
+        <div class="testimonial">
+            <!-- Agrega más testimonios -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Ponte en contacto con nosotros para obtener más información o hacer consultas:</p>
+        <form action="enviar.php" method="post" id="contactForm" onsubmit="return validarFormulario()">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">ENVIAR</button>
+        </form>
+    </section>
+
+    <footer>
+        <nav>
+            <a href="privacy.html">Políticas de Privacidad</a>
+            <a href="terms.html">Términos de Uso</a>
+        </nav>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/gatitosencantadores"><img src="Imagenes/face.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/gatitosencantadores"><img src="Imagenes/inst.jpg" alt="Instagram"></a>
+            <a href="https://www.twitter.com/gatitosencantadores"><img src="Imagenes/tw.png" alt="Twitter"></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
